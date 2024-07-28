@@ -117,11 +117,11 @@ Tools: Visual Studio Code, HTML, CSS, Javascript, React, Vite
 
 > F. List five objective usability tasks you want users to test in Task 2 for your prototype.
 
-1. Check that links in the navbar appropriately scroll down to the correct section.
-2. Check that the navbar collapses for smaller screensizes.
-3. Check responsiveness for smaller screen sizes - ex: are all sections visible in a smaller screen size, or do they start to overlap? (This was something I had issues with when building it, and I think I fixed it, but would appreciate other people testing it as well).
-4. Is the intended purpose of each section apparent, given the design?
-5. Is the text legible at both desktop and mobile screen sizes?
+1. Click on the Home tab, and use the "Read More" button under "Find Things to Do" to reach the Events calendar.
+2. Click on Stay, and verify that four options are listed.
+3. Click on Stay on the Navbar, then click on any of the four options to lead to the Booking page to find the pricing of one of the options listed.
+4. Click on the Dining Page and locate the name of the main restaurant.
+5. Navigate to the Events page and find an event dated for August.
 
 ## Sources & Citations
 
