@@ -1,0 +1,103 @@
+.container {
+  position: relative;
+  min-height: 100vh;
+}
+.headerContainer {
+  display: flex;
+  width: 100%;
+  padding: 40px 0;
+  flex-direction: column;
+  background-color: whitesmoke;
+}
+
+.stayHeader {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.stayHeader h1 {
+  color: black;
+  background-color: gold;
+  width: max-content;
+  padding: 5px 10px;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.stayHeader p {
+  width: fit-content;
+  color: black;
+  text-shadow: none;
+  border: none;
+  font-size: 20px;
+}
+
+.optionsContainer {
+  /* background-color: gold; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100vh;
+  /* gap: 10px 0; */
+  justify-content: center;
+}
+
+.hotel {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  gap: 2rem;
+  /* z-index: 1; */
+  color: white;
+  &:hover {
+    cursor: pointer;
+    h1 {
+      box-shadow: 5px 5px 5px black;
+    }
+  }
+}
+
+.hotel h1 {
+  background-color: gold;
+  color: black;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+
+.hotel p {
+  font-size: 20px;
+}
+
+/* Individual Card Styles */
+
+#hotelCard {
+  background-image: url(../../assets/stay/hotel.jpeg);
+  background-position: 50% 60%;
+  background-size: cover;
+}
+
+#bedAndBreakfastsCard {
+  background-image: url(../../assets/stay/bnb.jpeg);
+  background-position: 50% 80%;
+  background-size: cover;
+}
+
+#privateRentalsCard {
+  background-image: url(../../assets/stay/condo.jpg);
+  background-position: 50% 80%;
+  background-size: cover;
+}
+
+#resortCard {
+  background-image: url(../../assets/stay/resort.jpeg);
+  background-position: 50% 80%;
+  background-size: cover;
+}

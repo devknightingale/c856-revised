@@ -1,0 +1,45 @@
+.container {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.logo {
+  margin-left: 5%;
+  text-transform: uppercase;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.navbar {
+  background-color: black;
+  width: 60%;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  height: 50px;
+}
+a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-decoration: none;
+  &:visited {
+    color: white;
+  }
+}
+
+a:hover {
+  color: gold;
+}
+@media screen and (max-width: 768px) {
+  .navbar {
+    width: 80%;
+  }
+}
