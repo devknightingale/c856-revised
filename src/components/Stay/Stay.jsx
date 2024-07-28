@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../Stay/Stay.module.css";
+import { Link } from "react-router-dom";
 function Stay() {
   return (
     <div className={styles.container}>
@@ -16,23 +17,32 @@ function Stay() {
       </div>
       <div className={styles.optionsContainer}>
         <div className={styles.hotel} id={styles.hotelCard}>
-          <h1 className={styles.hotelName}>Hotels</h1>
+          <h1 className={styles.hotelName}>
+            <Link to="/book">Hotels</Link>
+          </h1>
           <p className={styles.hotelDescription}>
             For staying close to the action
           </p>
         </div>
+
         <div className={styles.hotel} id={styles.bedAndBreakfastsCard}>
-          <h1 className={styles.hotelName}>Bed & Breakfasts</h1>
+          <h1 className={styles.hotelName}>
+            <Link to="/book">Bed & Breakfasts</Link>
+          </h1>
           <p className={styles.hotelDescription}>For that cozy home feeling</p>
         </div>
         <div className={styles.hotel} id={styles.privateRentalsCard}>
-          <h1 className={styles.hotelName}>Private Rentals</h1>
+          <h1 className={styles.hotelName}>
+            <Link to="/book">Private Rentals</Link>
+          </h1>
           <p className={styles.hotelDescription}>
             For that private luxury getaway
           </p>
         </div>
         <div className={styles.hotel} id={styles.resortCard}>
-          <h1 className={styles.hotelName}>Resorts</h1>
+          <h1 className={styles.hotelName}>
+            <Link to="/book">Resorts</Link>
+          </h1>
           <p className={styles.hotelDescription}>For the all-inclusive stay </p>
         </div>
       </div>

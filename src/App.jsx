@@ -7,6 +7,8 @@ import Footer from "./components/Footer/Footer";
 import Stay from "./components/Stay/Stay";
 import Dining from "./components/Dining/Dining";
 import Events from "./components/Events/Events";
+import Book from "./components/Book/Book";
+import Eats from "./components/Eats/Eats";
 // ... import other pages
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
           <Route path="/stay" element={<Stay />} />
           <Route path="/dining" element={<Dining />} />
           <Route path="/events" element={<Events />} />
+          <Route path="/book" element={<Book />} />
+          <Route path="/eats" element={<Eats />} />
           {/* ... other routes */}
         </Routes>
         <Footer />

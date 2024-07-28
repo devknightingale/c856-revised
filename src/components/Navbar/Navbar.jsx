@@ -17,7 +17,7 @@ function Navbar() {
             <a href="/dining">Dining</a>
           </li>
           <li>
-            <a href="/events">Event</a>
+            <a href="/events">Events</a>
           </li>
 
           {/* ... other links */}
