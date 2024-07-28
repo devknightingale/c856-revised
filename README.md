@@ -15,7 +15,7 @@ Though only one aspect of this project (optionally) requires coding, I wanted to
 
 ## Projected Timeline
 
-![A proposed timeline built in an Excel spreadsheet with three headings: Activity, Timing, and Considerations.](./assets/planning/timeline/prospective_timeline.png)
+![A proposed timeline built in an Excel spreadsheet with three headings: Activity, Timing, and Considerations.](./src/assets/planning/timeline/prospective_timeline.png)
 
 Per the requirements:
 
@@ -57,7 +57,7 @@ Tools: Microsoft Excel
 
 Using the Survey Results data, I split the data into the most common categories and crafted User Personas based on the data provided. Below is an example of one such Persona:
 
-![A Persona profile built in Powerpoint detailing a fictional User that may be served by the Tanitian tourism website.](./assets/planning/personas/Business_Tripper_Jason_Patel.png)
+![A Persona profile built in Powerpoint detailing a fictional User that may be served by the Tanitian tourism website.](./src/assets/planning/personas/Business_Tripper_Jason_Patel.png)
 
 Each Persona profile consists of three main sections:
 
@@ -71,7 +71,7 @@ Tools: Microsoft Powerpoint, Google Search (for inspiration - see Sources & Cita
 
 > C. Create a low-fidelity wireframe showing the suggested flow of your new design for the Tanitian website.
 
-[See planning wireframes here.](/assets/planning/wireframe/)
+[See planning wireframes here.](./src/assets/planning/wireframe/)
 
 ## Guerilla Usability Testing
 
@@ -167,7 +167,7 @@ Carniato, Alexandre Saraiva. “A Man Surfing on Sea Waves · Free Stock Photo.�
 ### Reference Sources
 
 For User Persona Template inspiration, the actual websites of most image results were not accessible at the time I was working on them (due to site blocking on work network), so I simply did my best imitation of the design in Powerpoint. This was the specific image I used for inspiration:
-![A blurred image from a Google search result for a user persona template.](./assets/planning/references/User_Persona_Reference.PNG)
+![A blurred image from a Google search result for a user persona template.](./src/assets/planning/references/User_Persona_Reference.PNG)
 
 “20 User Persona Templates to Create Your Own.” Visme Blog, Visme, 19 June 2024, [Visme](visme.co/blog/user-persona-template/).
 
